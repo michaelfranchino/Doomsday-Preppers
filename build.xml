@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<!-- Configuration of the Ant build system to generate a Jar file --> 
+<project name="DoomsdayPreppers" default="CreateJar">
+  <target name="CreateJar" description="Create Jar file">
+        <jar jarfile="doomsday.jar" basedir="bin/" includes="**/*.class">
+        <manifest>
+        	<attribute name="Main-Class" value = 'com.mfranchino.doomsday.game.Game' />
+        </manifest>
+        </jar>
+  </target>
+</project>
