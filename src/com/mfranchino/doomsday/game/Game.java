@@ -9,7 +9,6 @@ import org.newdawn.slick.SlickException;
 import com.mfranchino.doomsday.game.level.Level;
 import com.mfranchino.doomsday.game.level.TestLayerEnum;
 import com.mfranchino.doomsday.game.level.TestLevel;
-import com.mfranchino.doomsday.utilities.Camera;
 
 public class Game extends BasicGame {
 

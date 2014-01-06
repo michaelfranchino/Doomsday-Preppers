@@ -1,5 +1,6 @@
 package com.mfranchino.doomsday.game.objects;
 
+import com.mfranchino.doomsday.game.Menu;
 import java.awt.Font;
 
 import org.newdawn.slick.Color;

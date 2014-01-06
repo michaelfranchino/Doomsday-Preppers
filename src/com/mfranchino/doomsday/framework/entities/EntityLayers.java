@@ -14,7 +14,7 @@ package com.mfranchino.doomsday.framework.entities;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 
-public class EntityLayers implements IEntity {
+public class EntityLayers implements Entity {
 	private final EntityLayer[] layers;
 	private boolean             expired;
 
@@ -54,9 +54,10 @@ public class EntityLayers implements IEntity {
 	}
 
 	// Expire each layer
+	@Override
 	public void expire() {
-		for (int i = 0; i < layers.length; i++) {
-			layers[i].expire();
+		for (EntityLayer layer : layers) {
+			layer.expire();
 		}
 
 		expired = true;
@@ -74,44 +75,51 @@ public class EntityLayers implements IEntity {
 		return layers.length;
 	}
 
+	@Override
 	public boolean isExpired() {
 		return expired;
 	}
 
+	@Override
 	public void onExpire() {
-		for (int i = 0; i < layers.length; i++) {
-			layers[i].onExpire();
+		for (EntityLayer layer : layers) {
+			layer.onExpire();
 		}
 	}
 
 //  <editor-fold defaultstate="collapsed" desc="Game loop framework methods">
 	// initialize any settings that need to be in place before starting
+	@Override
 	public void init(GameContainer gc) {
-		for (int i = 0; i < layers.length; i++) {
-			layers[i].init(gc);
+		for (EntityLayer layer : layers) {
+			layer.init(gc);
 		}
 	}
 
 	// Update each layer's entities
+	@Override
 	public void update(GameContainer gc, int delta) {
-		for (int i = 0; i < layers.length; i++) {
-			layers[i].update(gc, delta);
+		for (EntityLayer layer : layers) {
+			layer.update(gc, delta);
 		}
 	}
 
 	// Render each layer's entities
+	@Override
 	public void render(GameContainer gc, Graphics g) {
-		for (int i = 0; i < layers.length; i++) {
-			layers[i].render(gc, g);
+		for (EntityLayer layer : layers) {
+			layer.render(gc, g);
 		}
 	}
 
 //  </editor-fold>
 
+	@Override
 	public final boolean isEnabled() {
 		return true;
 	}
 
+	@Override
 	public boolean isVisible() {
 		return true;
 	}

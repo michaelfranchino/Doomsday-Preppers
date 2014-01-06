@@ -2,9 +2,8 @@ package com.mfranchino.doomsday.framework.entities;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
-import org.newdawn.slick.util.Log;
 
-public class EntityLayer extends EntityList<IEntity> implements IEntity{
+public class EntityLayer extends EntityList<Entity> implements Entity{
 
 	protected final int index;
 	protected boolean visible;
@@ -19,7 +18,6 @@ public class EntityLayer extends EntityList<IEntity> implements IEntity{
 	public EntityLayer(int index, String name) {
 		this.index = index;
 		this.name = name;
-		Log.info(this.toString());
 	}
 //</editor-fold>
 
@@ -33,9 +31,11 @@ public class EntityLayer extends EntityList<IEntity> implements IEntity{
 	public void setEnabled(boolean enabled) {
 		this.enabled = enabled;
 	}
+	@Override
 	public boolean isEnabled() {
 		return enabled;
 	}
+	@Override
 	public boolean isVisible() {
 		return visible;
 	}
@@ -44,6 +44,7 @@ public class EntityLayer extends EntityList<IEntity> implements IEntity{
 	}
 //</editor-fold>
 	
+	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("EntityLayer [index=");
@@ -59,17 +60,20 @@ public class EntityLayer extends EntityList<IEntity> implements IEntity{
 	}
 
 //<editor-fold defaultstate="collapsed" desc="Game look framework methods">
+	@Override
 	public void init(GameContainer gc) {
 		super.init(gc);
 		
 		this.setEnabled(true);
 		this.setVisible(true);
 	}
+	@Override
 	public void update(GameContainer gc, int delta) {
 		if (enabled) {
 			super.update(gc, delta);
 		}
 	}
+	@Override
 	public void render(GameContainer gc, Graphics g) {
 		if (visible) {
 			super.render(gc, g);

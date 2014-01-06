@@ -8,14 +8,14 @@ import org.newdawn.slick.SlickException;
 import org.newdawn.slick.tiled.TiledMap;
 
 import com.mfranchino.doomsday.framework.entities.EntityList;
-import com.mfranchino.doomsday.framework.entities.IEntity;
+import com.mfranchino.doomsday.framework.entities.Entity;
 import com.mfranchino.doomsday.game.objects.Box;
 import com.mfranchino.doomsday.game.objects.MainMenu;
-import com.mfranchino.doomsday.game.objects.Player;
+import com.mfranchino.doomsday.game.Player;
 
-public class TestLevel extends Level implements IEntity {
+public class TestLevel extends Level implements Entity {
 
-	EntityList<IEntity> entities;
+	EntityList<Entity> entities;
 
 	// <editor-fold defaultstate="collapsed" desc="Constructors">
 	public <E extends Enum<E>> TestLevel(Class<E> layerEnum) {
