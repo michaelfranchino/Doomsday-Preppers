@@ -8,6 +8,7 @@ import com.mfranchino.doomsday.framework.entities.EntityLayers;
 import com.mfranchino.doomsday.framework.entities.EntityList;
 import com.mfranchino.doomsday.framework.entities.Entity;
 import com.mfranchino.doomsday.game.Player;
+import org.newdawn.slick.SlickException;
 
 public abstract class Level implements Entity {
 
@@ -40,7 +41,7 @@ public abstract class Level implements Entity {
 	public abstract void init(GameContainer gc);
 
 	@Override
-	public void update(GameContainer gc, int delta) {
+	public void update(GameContainer gc, int delta) throws SlickException {
 		player.update(gc, delta, getMapWidth(), getMapHeight(), map.getTileWidth(), map.getTileHeight());
 		entityLayers.update(gc, delta);
 		if (menus.isEnabled()) {
@@ -49,7 +50,7 @@ public abstract class Level implements Entity {
 	}
 
 	@Override
-	public void render(GameContainer gc, Graphics g) {
+	public void render(GameContainer gc, Graphics g) throws SlickException {
 		entityLayers.render(gc, g);
 		map.render(0, 0);
 		if (menus.isEnabled()) {

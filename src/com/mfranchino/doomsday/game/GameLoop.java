@@ -19,18 +19,46 @@ package com.mfranchino.doomsday.game;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
+import org.newdawn.slick.SlickException;
 
 /**
+ * The main game interface that should be implemented by any game being developed
+ * using the container system. There will be some utility type sub-classes as development
+ * continues.
+ * 
+ * This is a subset of the slick2d GAME interface
  *
  * @author mfranchino
  */
 public interface GameLoop {
 
-	// Game loop methods
-	void init(GameContainer gc);
+	/**
+	* initialize the game. This can be used to load static resources. It's called
+	* before the game loop starts
+	* 
+	* @param gc The container holding the game
+	* @throws SlickException Throw to indicate an internal error
+	*/
+	void init(GameContainer gc) throws SlickException;
 
-	void render(GameContainer gc, Graphics g);
+	/**
+	* Render the game/'s screen here. 
+	* 
+	* @param gc The container holing this game
+	* @param g The graphics context that can be used to render. However, normal rendering
+	* routines can also be used.
+	 * @throws SlickException Throw to indicate a internal error
+	*/
+	void render(GameContainer gc, Graphics g) throws SlickException;
 
-	void update(GameContainer gc, int delta);
+  /**
+	* Update the game logic here. No rendering should take place in this method
+	* though it won't do any harm. 
+	* 
+	* @param gc The container holing this game
+	* @param delta The amount of time thats passed since last update in milliseconds
+	* @throws SlickException Throw to indicate an internal error
+	*/
+	void update(GameContainer gc, int delta) throws SlickException;
 	
 }

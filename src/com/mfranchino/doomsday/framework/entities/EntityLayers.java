@@ -13,6 +13,7 @@ package com.mfranchino.doomsday.framework.entities;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
+import org.newdawn.slick.SlickException;
 
 public class EntityLayers implements Entity {
 	private final EntityLayer[] layers;
@@ -90,7 +91,7 @@ public class EntityLayers implements Entity {
 //  <editor-fold defaultstate="collapsed" desc="Game loop framework methods">
 	// initialize any settings that need to be in place before starting
 	@Override
-	public void init(GameContainer gc) {
+	public void init(GameContainer gc) throws SlickException {
 		for (EntityLayer layer : layers) {
 			layer.init(gc);
 		}
@@ -98,7 +99,7 @@ public class EntityLayers implements Entity {
 
 	// Update each layer's entities
 	@Override
-	public void update(GameContainer gc, int delta) {
+	public void update(GameContainer gc, int delta) throws SlickException {
 		for (EntityLayer layer : layers) {
 			layer.update(gc, delta);
 		}
@@ -106,7 +107,7 @@ public class EntityLayers implements Entity {
 
 	// Render each layer's entities
 	@Override
-	public void render(GameContainer gc, Graphics g) {
+	public void render(GameContainer gc, Graphics g) throws SlickException {
 		for (EntityLayer layer : layers) {
 			layer.render(gc, g);
 		}

@@ -31,7 +31,17 @@ public abstract class BaseEntity implements Entity, GameLoop {
 	protected boolean     visible;
 
 	// Constructors
-	public BaseEntity(int id, float x, float y, float height, float width) {
+
+	/**
+	 * Creates a new entity in game world.
+	 * 
+	 * @param id			Id of new entity
+	 * @param x				starting x position in world
+	 * @param y				starting y position in world
+	 * @param height		starting height of entity in world
+	 * @param width		starting width of entity in world
+	 */
+		public BaseEntity(int id, float x, float y, float height, float width) {
 		super();
 		
 		this.id       = id;
@@ -118,10 +128,18 @@ public abstract class BaseEntity implements Entity, GameLoop {
 	}
 //  </editor-fold>
 	
+	/**
+	 *
+	 * @param delta
+	 */
 	protected void setDeltaX(int delta) {
 		position.x += velX * delta / 1000.0f;
 	}
 
+	/**
+	 *
+	 * @param delta
+	 */
 	protected void setDeltaY(int delta) {
 		position.y += velY * delta / 1000.0f;
 	}

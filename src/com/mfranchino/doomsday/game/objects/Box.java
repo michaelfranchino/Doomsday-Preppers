@@ -1,11 +1,8 @@
 package com.mfranchino.doomsday.game.objects;
 
-import java.awt.Font;
-
 import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
-import org.newdawn.slick.TrueTypeFont;
 
 import com.mfranchino.doomsday.framework.entities.BaseEntity;
 
@@ -26,9 +23,11 @@ public class Box extends BaseEntity {
 		this.visible = true;
 	}
 
+	@Override
 	public void onExpire() {
 	}
 
+	@Override
 	public void render(GameContainer gc, Graphics g) {
 		g.setColor(color);
 		g.fillRect(getX(), getY(), getWidth(), getHeight());
@@ -39,6 +38,7 @@ public class Box extends BaseEntity {
 		//g.drawString(this.toString(), 50, 100);
 	}
 
+	@Override
 	public void update(GameContainer gc, int delta) {
 		super.update(gc, delta);
 	}

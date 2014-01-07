@@ -41,6 +41,7 @@ public class MainMenu extends Menu {
 		color = new Color(Color.yellow);
 	}
 
+	@Override
 	public void render(GameContainer gc, Graphics g) {
 		if (isVisible()) {
 			int index = 0;
@@ -56,6 +57,7 @@ public class MainMenu extends Menu {
 		}
 	}
 
+	@Override
 	public void update(GameContainer gc, int delta) {
 		if (isEnabled()) {
 			Input input = gc.getInput();

@@ -5,6 +5,7 @@ import java.util.Iterator;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
+import org.newdawn.slick.SlickException;
 
 public class EntityList<E extends Entity> implements Entity, Iterable<E> {
 
@@ -182,16 +183,16 @@ public class EntityList<E extends Entity> implements Entity, Iterable<E> {
 	// Game loop
 	// This should only initialize the EntityList and not the entities, as they should be initialized on creation
 	@Override
-	public void init(GameContainer gc) {
-		for (E entitie : entities) {
-			if (entitie != null) {
-				entitie.init(gc);
+	public void init(GameContainer gc) throws SlickException {
+		for (E entity : entities) {
+			if (entity != null) {
+				entity.init(gc);
 			}
 		}
 	}
 
 	@Override
-	public void update(GameContainer gc, int delta) {
+	public void update(GameContainer gc, int delta) throws SlickException {
 		int alive = 0;
 
 		for (int i = 0; i < size; i++) {
@@ -217,7 +218,7 @@ public class EntityList<E extends Entity> implements Entity, Iterable<E> {
 	}
 
 	@Override
-	public void render(GameContainer gc, Graphics g) {
+	public void render(GameContainer gc, Graphics g) throws SlickException {
 		for (int i = 0; i < size; i++) {
 			entities[i].render(gc, g);
 		}

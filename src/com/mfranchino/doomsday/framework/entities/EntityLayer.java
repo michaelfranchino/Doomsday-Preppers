@@ -2,6 +2,7 @@ package com.mfranchino.doomsday.framework.entities;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
+import org.newdawn.slick.SlickException;
 
 public class EntityLayer extends EntityList<Entity> implements Entity{
 
@@ -61,20 +62,20 @@ public class EntityLayer extends EntityList<Entity> implements Entity{
 
 //<editor-fold defaultstate="collapsed" desc="Game look framework methods">
 	@Override
-	public void init(GameContainer gc) {
+	public void init(GameContainer gc) throws SlickException {
 		super.init(gc);
 		
 		this.setEnabled(true);
 		this.setVisible(true);
 	}
 	@Override
-	public void update(GameContainer gc, int delta) {
+	public void update(GameContainer gc, int delta) throws SlickException {
 		if (enabled) {
 			super.update(gc, delta);
 		}
 	}
 	@Override
-	public void render(GameContainer gc, Graphics g) {
+	public void render(GameContainer gc, Graphics g) throws SlickException {
 		if (visible) {
 			super.render(gc, g);
 		}

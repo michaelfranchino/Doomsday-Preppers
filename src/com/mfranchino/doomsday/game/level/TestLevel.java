@@ -12,6 +12,7 @@ import com.mfranchino.doomsday.framework.entities.Entity;
 import com.mfranchino.doomsday.game.objects.Box;
 import com.mfranchino.doomsday.game.objects.MainMenu;
 import com.mfranchino.doomsday.game.Player;
+import java.util.logging.Logger;
 
 public class TestLevel extends Level implements Entity {
 
@@ -25,14 +26,18 @@ public class TestLevel extends Level implements Entity {
 	// </editor-fold>
 
 	// <editor-fold defaultstate="collapsed" desc="Game loop framework methods">
+	@Override
 	public void init(GameContainer gc) {
+		try {
+			gc.setMouseCursor("res/level/glove_mouse_cursor_S.png",25 , 1);
+		} catch (SlickException ex) {
+			Logger.getLogger(TestLevel.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+		}
 		
 		// initialize the map
 		try {
 			this.setMap(new TiledMap("res/tiledmaps/map.tmx"));
 		} catch (SlickException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 
 		// create the player
@@ -62,7 +67,8 @@ public class TestLevel extends Level implements Entity {
 //		entityLayers.getLayer(TestLayerEnum.Player).setEnabled(false);
 	}
 
-	public void update(GameContainer gc, int delta) {
+	@Override
+	public void update(GameContainer gc, int delta) throws SlickException {
 		super.update(gc, delta);
 		if (!menus.get(0).isEnabled()) {
 			entityLayers.getLayer(TestLayerEnum.Mobs).setEnabled(true);
@@ -71,7 +77,8 @@ public class TestLevel extends Level implements Entity {
 		}
 	}
 
-	public void render(GameContainer gc, Graphics g) {
+	@Override
+	public void render(GameContainer gc, Graphics g) throws SlickException {
 		super.render(gc, g);
 	}
 	// </editor-fold>
