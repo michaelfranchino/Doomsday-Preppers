@@ -1,0 +1,35 @@
+World Actions
+
+
+Add<object> to world
+Ability to add any type of object to the world (level?)
+
+ex. 
+Add(Player)
+    .at(x, y)
+    .withBlock()
+        .Transform(xxx).alarm(10)
+        .Transform(yyy).alarm(20)
+    .endWith()
+.end()
+
+Add(InventoryItem)
+    .at(x, y)
+    .withTransform(xxx).alarm(10)
+    .attributes(attributes)
+    .withVelocity(Vector2d)
+.end()
+
+
+
+
+
+
+What is an action?
+Chained actions: action1 -> action2 -> action3
+                 action1 -> addObjWorld(x); addObjWorld(y)
+                 action1 -> Upd
+
+
+ 1 - At a specific time, i want an action to happen
+ 2 - At a random time, i want an action to happen

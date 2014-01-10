@@ -7,7 +7,7 @@
  *
  *
  */
-package com.mfranchino.doomsday.framework.entities;
+package com.mfranchino.doomsday.entities;
 
 //~--- non-JDK imports --------------------------------------------------------
 

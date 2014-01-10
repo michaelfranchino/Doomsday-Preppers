@@ -23,10 +23,14 @@ public class Game extends BasicGame {
 	public static final double VERSION = 0.05;
 
 	Level level;
-	Camera camera;
+	public static Camera camera;
 
 	double counter;
 
+	public static Camera getCamera() {
+		return camera;
+	}
+	
 	public Game(String gameName) {
 		super(gameName);
 	}
@@ -45,6 +49,7 @@ public class Game extends BasicGame {
 		}
 	}
 
+	@Override
 	public void render(GameContainer gc, Graphics g) throws SlickException {
 
 		// g.setColor(Color.white);
@@ -65,6 +70,7 @@ public class Game extends BasicGame {
 		level.render(gc, g);
 	}
 
+	@Override
 	public void init(GameContainer gc) throws SlickException {
 
 		level = new TestLevel(TestLayerEnum.class);
@@ -73,6 +79,7 @@ public class Game extends BasicGame {
 		camera = new Camera(level.getMapWidth(), level.getMapHeight());
 	}
 
+	@Override
 	public void update(GameContainer gc, int delta) throws SlickException {
 		level.update(gc, delta);
 	}

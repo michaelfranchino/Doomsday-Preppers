@@ -3,11 +3,31 @@ package com.mfranchino.doomsday.game;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.geom.Rectangle;
 
-import com.mfranchino.doomsday.framework.entities.BaseEntity;
+import com.mfranchino.doomsday.entities.BaseEntity;
 
 public class Camera {
 
 	private int x, y;
+
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public int getMapWidth() {
+		return mapWidth;
+	}
+
+	public int getMapHeight() {
+		return mapHeight;
+	}
+
+	public Rectangle getViewPort() {
+		return viewPort;
+	}
 	private final int mapWidth, mapHeight;
 	private final Rectangle viewPort;
 

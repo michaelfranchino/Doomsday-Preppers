@@ -7,11 +7,13 @@ import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.tiled.TiledMap;
 
-import com.mfranchino.doomsday.framework.entities.EntityList;
-import com.mfranchino.doomsday.framework.entities.Entity;
+import com.mfranchino.doomsday.entities.EntityList;
+import com.mfranchino.doomsday.entities.Entity;
 import com.mfranchino.doomsday.game.objects.Box;
 import com.mfranchino.doomsday.game.objects.MainMenu;
 import com.mfranchino.doomsday.game.Player;
+import com.mfranchino.doomsday.particles.Particle;
+
 import java.util.logging.Logger;
 
 public class TestLevel extends Level implements Entity {
@@ -41,9 +43,19 @@ public class TestLevel extends Level implements Entity {
 		}
 
 		// create the player
-		player = new Player(0, 50, 100, 64, 32);
+		player = new Player(0, 50, 100, 5, 5);
 		player.init(gc);
 
+		Particle particle = new Particle("data/test_emitter.xml", 2, 0, 0, 64, 32);
+		try {
+			particle.init(gc);
+		} catch (SlickException ex) {
+			Logger.getLogger(TestLevel.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+		}
+		entityLayers.getLayer(TestLayerEnum.Mobs).add(particle);
+		entityLayers.getLayer(TestLayerEnum.Mobs).setEnabled(true);
+		entityLayers.getLayer(TestLayerEnum.Mobs).setVisible(true);
+		
 		Box box = null;
 		Random rand = new Random();
 

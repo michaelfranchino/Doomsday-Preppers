@@ -1,4 +1,4 @@
-package com.mfranchino.doomsday.framework.entities;
+package com.mfranchino.doomsday.entities;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;

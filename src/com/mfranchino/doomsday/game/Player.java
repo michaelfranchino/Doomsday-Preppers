@@ -9,8 +9,8 @@ import org.newdawn.slick.SlickException;
 import org.newdawn.slick.SpriteSheet;
 import org.newdawn.slick.geom.Vector2f;
 
-import com.mfranchino.doomsday.framework.entities.BaseEntity;
-import com.mfranchino.doomsday.framework.entities.Entity;
+import com.mfranchino.doomsday.entities.BaseEntity;
+import com.mfranchino.doomsday.entities.Entity;
 
 public class Player extends BaseEntity implements Entity{
 	
@@ -39,11 +39,13 @@ public class Player extends BaseEntity implements Entity{
 		}
 		image = new Animation(frames, 20);
 	}
+	
+	@Override
 	public void render(GameContainer gc, Graphics g) {
 		g.drawAnimation(image, getX(), getY());
 	}
 	
-	public void update(GameContainer gc, int delta, int mapWidth, int mapHeight, int tileWidth, int tileHeight) {
+	public void update(GameContainer gc, int delta, int mapWidth, int mapHeight, int tileWidth, int tileHeight) throws SlickException {
 		Vector2f trans = new Vector2f(0,0);
 		
 		Input input = gc.getInput();

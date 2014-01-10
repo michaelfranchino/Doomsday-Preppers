@@ -4,7 +4,8 @@ import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 
-import com.mfranchino.doomsday.framework.entities.BaseEntity;
+import com.mfranchino.doomsday.entities.BaseEntity;
+import org.newdawn.slick.SlickException;
 
 public class Box extends BaseEntity {
 
@@ -39,7 +40,7 @@ public class Box extends BaseEntity {
 	}
 
 	@Override
-	public void update(GameContainer gc, int delta) {
+	public void update(GameContainer gc, int delta) throws SlickException {
 		super.update(gc, delta);
 	}
 

@@ -1,6 +1,6 @@
 package com.mfranchino.doomsday.game;
 
-import com.mfranchino.doomsday.framework.entities.BaseEntity;
+import com.mfranchino.doomsday.entities.BaseEntity;
 
 public abstract class Menu extends BaseEntity {
 

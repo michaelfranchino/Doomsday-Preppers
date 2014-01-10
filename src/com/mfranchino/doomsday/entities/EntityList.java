@@ -1,4 +1,4 @@
-package com.mfranchino.doomsday.framework.entities;
+package com.mfranchino.doomsday.entities;
 
 import java.util.Arrays;
 import java.util.Iterator;

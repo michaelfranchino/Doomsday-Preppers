@@ -4,9 +4,9 @@ import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.tiled.TiledMap;
 
-import com.mfranchino.doomsday.framework.entities.EntityLayers;
-import com.mfranchino.doomsday.framework.entities.EntityList;
-import com.mfranchino.doomsday.framework.entities.Entity;
+import com.mfranchino.doomsday.entities.EntityLayers;
+import com.mfranchino.doomsday.entities.EntityList;
+import com.mfranchino.doomsday.entities.Entity;
 import com.mfranchino.doomsday.game.Player;
 import org.newdawn.slick.SlickException;
 
@@ -51,8 +51,8 @@ public abstract class Level implements Entity {
 
 	@Override
 	public void render(GameContainer gc, Graphics g) throws SlickException {
-		entityLayers.render(gc, g);
 		map.render(0, 0);
+		entityLayers.render(gc, g);
 		if (menus.isEnabled()) {
 			menus.render(gc, g);
 		}
