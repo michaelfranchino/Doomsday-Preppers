@@ -26,7 +26,6 @@ public abstract class BaseEntity implements Entity, GameLoop {
 	private float Height, Width;
 
 	private boolean expired;       // expired will remove the game object
-	private GameContainer gameContainer;	// TODO why is this here?
 	private final int id;
 	private float velX, velY;    // TODO convert to vector 
 
@@ -36,17 +35,18 @@ public abstract class BaseEntity implements Entity, GameLoop {
 	 *   enabled = false, system will not call the update() method during the game loop
 	 */
 	protected boolean enabled;
-
 	/**
 	 * The position of the entity on the world map
 	 */
 	protected Vector2f position;
-
+	/**
+	 * The velocity of the entity on the world map
+	 */
+	protected Vector2f velocity; 
 	/**
 	 * If the entity is not visible, the render() method will not bother rendering the object
 	 */
 	protected boolean visible;
-
 	/**
 	 * alarms that can be attached to entity to perform actions
 	 */
@@ -81,14 +81,6 @@ public abstract class BaseEntity implements Entity, GameLoop {
 	 */
 	public final AlarmContainer getAlarms() {
 		return alarms;
-	}
-
-	/**
-	 *
-	 * @return
-	 */
-	public final GameContainer getGameContainer() {
-		return gameContainer;
 	}
 
 	/**
