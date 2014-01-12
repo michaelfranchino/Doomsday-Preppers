@@ -1,19 +1,17 @@
 package com.mfranchino.doomsday.game.level;
 
-import java.util.Random;
-
+import com.mfranchino.doomsday.framework.entities.Entity;
+import com.mfranchino.doomsday.framework.entities.EntityList;
+import com.mfranchino.doomsday.game.Player;
+import com.mfranchino.doomsday.game.objects.Box;
+import com.mfranchino.doomsday.game.objects.MainMenu;
+import com.mfranchino.doomsday.framework.entities.particles.Particle;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.tiled.TiledMap;
 
-import com.mfranchino.doomsday.entities.EntityList;
-import com.mfranchino.doomsday.entities.Entity;
-import com.mfranchino.doomsday.game.objects.Box;
-import com.mfranchino.doomsday.game.objects.MainMenu;
-import com.mfranchino.doomsday.game.Player;
-import com.mfranchino.doomsday.particles.Particle;
-
+import java.util.Random;
 import java.util.logging.Logger;
 
 public class TestLevel extends Level implements Entity {

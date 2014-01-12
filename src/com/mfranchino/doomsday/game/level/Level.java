@@ -1,23 +1,22 @@
 package com.mfranchino.doomsday.game.level;
 
+import com.mfranchino.doomsday.framework.entities.Entity;
+import com.mfranchino.doomsday.framework.entities.EntityLayers;
+import com.mfranchino.doomsday.framework.entities.EntityList;
+import com.mfranchino.doomsday.game.Player;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
-import org.newdawn.slick.tiled.TiledMap;
-
-import com.mfranchino.doomsday.entities.EntityLayers;
-import com.mfranchino.doomsday.entities.EntityList;
-import com.mfranchino.doomsday.entities.Entity;
-import com.mfranchino.doomsday.game.Player;
 import org.newdawn.slick.SlickException;
+import org.newdawn.slick.tiled.TiledMap;
 
 public abstract class Level implements Entity {
 
 	private TiledMap map;
 
-	protected boolean expired;
-	protected EntityLayers entityLayers;		// used for backgrounds, mobs, inventory items, drops, etc. 
-	protected Player player;					// used for player
-	protected EntityList<Entity> menus;		// used for menus
+	private boolean expired;
+	EntityLayers entityLayers;	// used for backgrounds, mobs, inventory items, drops, etc.
+	Player player;					    // used for player
+	final EntityList<Entity> menus;		// used for menus
 
 	// Constructors
 	public Level() {
@@ -97,7 +96,7 @@ public abstract class Level implements Entity {
 		return player;
 	}
 
-	public final void setMap(TiledMap map) {
+	final void setMap(TiledMap map) {
 		this.map = map;
 	}
 

@@ -2,7 +2,7 @@
 package com.mfranchino.doomsday.builder.Inventory;
 
 import javax.annotation.Generated;
-import com.mfranchino.doomsday.inventory.InventoryItem;
+import com.mfranchino.doomsday.framework.entities.inventory.InventoryItem;
 
 
 /**

@@ -1,14 +1,8 @@
 package com.mfranchino.doomsday.game;
 
-import org.newdawn.slick.AppGameContainer;
-import org.newdawn.slick.BasicGame;
-import org.newdawn.slick.GameContainer;
-import org.newdawn.slick.Graphics;
-import org.newdawn.slick.SlickException;
-
-import com.mfranchino.doomsday.game.level.Level;
-import com.mfranchino.doomsday.game.level.TestLayerEnum;
-import com.mfranchino.doomsday.game.level.TestLevel;
+import com.mfranchino.doomsday.game.level.*;
+import com.mfranchino.doomsday.game.objects.Camera;
+import org.newdawn.slick.*;
 
 public class Game extends BasicGame {
 
@@ -23,7 +17,7 @@ public class Game extends BasicGame {
 	public static final double VERSION = 0.05;
 
 	Level level;
-	public static Camera camera;
+	private static Camera camera;
 
 	double counter;
 

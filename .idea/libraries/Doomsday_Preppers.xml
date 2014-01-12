@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Doomsday_Preppers">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Doomsday_Preppers.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
