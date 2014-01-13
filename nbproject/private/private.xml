@@ -7,6 +7,11 @@
         </group>
         <group>
             <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/GameThoughts.txt</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/framework/entities/AbilityScores.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/framework/level/Level.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/game/level/TestLevel.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/tests/com/mfranchino/doomsday/tests/TestAbilityScores.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/game/Game.java</file>
         </group>
     </open-files>
 </project-private>

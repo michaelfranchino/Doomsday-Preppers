@@ -1,5 +1,6 @@
 package com.mfranchino.doomsday.game.level;
 
+import com.mfranchino.doomsday.framework.level.Level;
 import com.mfranchino.doomsday.framework.entities.Entity;
 import com.mfranchino.doomsday.framework.entities.EntityList;
 import com.mfranchino.doomsday.game.Player;
@@ -14,7 +15,7 @@ import org.newdawn.slick.tiled.TiledMap;
 import java.util.Random;
 import java.util.logging.Logger;
 
-public class TestLevel extends Level implements Entity {
+public class TestLevel extends Level {
 
 	EntityList<Entity> entities;
 

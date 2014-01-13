@@ -1,22 +1,23 @@
-package com.mfranchino.doomsday.game.level;
+package com.mfranchino.doomsday.framework.level;
 
 import com.mfranchino.doomsday.framework.entities.Entity;
 import com.mfranchino.doomsday.framework.entities.EntityLayers;
 import com.mfranchino.doomsday.framework.entities.EntityList;
+import com.mfranchino.doomsday.game.GameLoop;
 import com.mfranchino.doomsday.game.Player;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.tiled.TiledMap;
 
-public abstract class Level implements Entity {
+public abstract class Level implements GameLoop {
 
 	private TiledMap map;
 
 	private boolean expired;
-	EntityLayers entityLayers;	// used for backgrounds, mobs, inventory items, drops, etc.
-	Player player;					    // used for player
-	final EntityList<Entity> menus;		// used for menus
+	protected EntityLayers entityLayers;	// used for backgrounds, mobs, inventory items, drops, etc.
+	protected Player player;					    // used for player
+	protected final EntityList<Entity> menus;		// used for menus
 
 	// Constructors
 	public Level() {
@@ -58,35 +59,6 @@ public abstract class Level implements Entity {
 		player.render(gc, g);
 	}
 
-	// Framework
-	@Override
-	public boolean isExpired() {
-		return expired;
-	}
-
-	@Override
-	public void expire() {
-		expired = true;
-	}
-
-	/**
-	 *
-	 */
-	@Override
-	public void onExpire() {
-		entityLayers.expire();
-	}
-
-	@Override
-	public final boolean isEnabled() {
-		return true;
-	}
-
-	@Override
-	public final boolean isVisible() {
-		return true;
-	}
-
 	// Helpers
 	public int getLayerCount() {
 		return entityLayers.getLayerCount();
@@ -96,7 +68,7 @@ public abstract class Level implements Entity {
 		return player;
 	}
 
-	final void setMap(TiledMap map) {
+	public final void setMap(TiledMap map) {
 		this.map = map;
 	}
 

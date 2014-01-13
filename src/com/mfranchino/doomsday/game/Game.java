@@ -1,5 +1,6 @@
 package com.mfranchino.doomsday.game;
 
+import com.mfranchino.doomsday.framework.level.Level;
 import com.mfranchino.doomsday.game.level.*;
 import com.mfranchino.doomsday.game.objects.Camera;
 import org.newdawn.slick.*;
