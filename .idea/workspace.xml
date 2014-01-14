@@ -10,27 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b879a36e-6d1b-469c-9a0d-fcb7b5099f3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/AbilityModifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/AbilityScores.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Alignment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Character.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/CharacterClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/DefenseModifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Defenses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Gender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Initiative.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Movement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Race.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Senses.java" />
-      <change type="DELETED" beforePath="C:\Users\mfranchino\workspace\Doomsday Preppers\src\com\mfranchino\doomsday\framework\entities\AbilityModifier.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\mfranchino\workspace\Doomsday Preppers\src\com\mfranchino\doomsday\framework\entities\AbilityScores.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\mfranchino\workspace\Doomsday Preppers\src\com\mfranchino\doomsday\framework\entities\AbilityBuilder.java" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/AbilityBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/Attributes.java" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/Attributes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mfranchino/doomsday/game/Player.java" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/game/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/mfranchino/doomsday/tests/TestAbilityScores.java" afterPath="$PROJECT_DIR$/tests/com/mfranchino/doomsday/tests/TestAbilityScores.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Defenses.java" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Defenses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Initiative.java" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Initiative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/inventory/InventoryItem.java" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/inventory/InventoryItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Movement.java" afterPath="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Movement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Doomsday Preppers.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -171,22 +155,78 @@
       <file leaf-file-name="Defenses.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Defenses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="9" column="10" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefenseModifier.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DefenseModifier.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/DefenseModifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+            <state line="18" column="35" selection-start="521" selection-end="521" vertical-scroll-proportion="0.3457627" vertical-offset="0" max-vertical-offset="885">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Initiative.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Initiative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="10" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InventoryItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/inventory/InventoryItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="181" column="3" selection-start="4209" selection-end="4209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5406">
               <folding>
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2507#2508#0" expanded="true" />
+                <element signature="e#2535#2536#0" expanded="true" />
+                <element signature="e#2623#2624#0" expanded="true" />
+                <element signature="e#2663#2664#0" expanded="true" />
+                <element signature="e#2798#2799#0" expanded="true" />
+                <element signature="e#2824#2825#0" expanded="true" />
+                <element signature="e#2941#2942#0" expanded="true" />
+                <element signature="e#2967#2968#0" expanded="true" />
+                <element signature="e#3086#3087#0" expanded="true" />
+                <element signature="e#3112#3113#0" expanded="true" />
+                <element signature="e#3228#3229#0" expanded="true" />
+                <element signature="e#3254#3255#0" expanded="true" />
+                <element signature="e#3378#3379#0" expanded="true" />
+                <element signature="e#3403#3404#0" expanded="true" />
+                <element signature="e#3470#3471#0" expanded="true" />
+                <element signature="e#3501#3502#0" expanded="true" />
+                <element signature="e#3823#3824#0" expanded="true" />
+                <element signature="e#3854#3855#0" expanded="true" />
+                <element signature="e#4178#4179#0" expanded="true" />
+                <element signature="e#4208#4209#0" expanded="true" />
+                <element signature="e#4308#4309#0" expanded="true" />
+                <element signature="e#4352#4353#0" expanded="true" />
+                <element signature="e#4476#4477#0" expanded="true" />
+                <element signature="e#4501#4502#0" expanded="true" />
+                <element signature="e#6630#6631#0" expanded="true" />
+                <element signature="e#6659#6660#0" expanded="true" />
+                <element signature="e#6757#6758#0" expanded="true" />
+                <element signature="e#6799#6800#0" expanded="true" />
+                <element signature="e#6943#6944#0" expanded="true" />
+                <element signature="e#6971#6972#0" expanded="true" />
+                <element signature="e#7066#7067#0" expanded="true" />
+                <element signature="e#7106#7107#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbilityScores.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/AbilityScores.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="231" column="0" selection-start="6864" selection-end="6864" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4046">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,18 +234,7 @@
       <file leaf-file-name="Character.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="1156">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CharacterClass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/CharacterClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="23" selection-start="496" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="24" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -214,31 +243,7 @@
       <file leaf-file-name="Alignment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Alignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="10" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <folding>
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gender.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Gender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="23" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <folding>
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Race.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Race.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+            <state line="15" column="10" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -247,25 +252,16 @@
       <file leaf-file-name="Movement.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Movement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="41" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="6" column="10" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAbilityScores.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/com/mfranchino/doomsday/tests/TestAbilityScores.java">
+      <file leaf-file-name="AbilityModifier.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/AbilityModifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="44" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0" vertical-offset="719" max-vertical-offset="1683">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Attributes.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/Attributes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.29127726" vertical-offset="0" max-vertical-offset="642">
+            <state line="53" column="0" selection-start="1825" selection-end="1991" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -317,14 +313,18 @@
         <option value="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/AbilityScores.java" />
         <option value="$PROJECT_DIR$/tests/com/mfranchino/doomsday/tests/TestAbilityScores.java" />
         <option value="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/Attributes.java" />
+        <option value="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/inventory/InventoryItem.java" />
+        <option value="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Defenses.java" />
+        <option value="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Initiative.java" />
+        <option value="$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Movement.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="2499" />
+    <option name="height" value="1456" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -396,29 +396,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Tests" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Doomsday Preppers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -503,6 +480,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Doomsday Preppers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Doomsday Preppers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.mfranchino.doomsday" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Doomsday Preppers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Doomsday Preppers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.mfranchino.doomsday" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="character" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane">
@@ -521,6 +550,29 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Doomsday Preppers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Tests" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Doomsday Preppers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -554,6 +606,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -714,6 +767,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -739,19 +805,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -897,7 +950,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="2499" height="1456" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -905,7 +958,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -917,12 +969,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32525253" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14055578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32518518" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1058,11 +1111,6 @@
         <state line="17" column="36" selection-start="628" selection-end="628" vertical-scroll-proportion="0.35836628" vertical-offset="0" max-vertical-offset="759" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/inventory/InventoryItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="4" selection-start="3785" selection-end="3785" vertical-scroll-proportion="0.48828125" vertical-offset="2770" max-vertical-offset="5865" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/events/Alarm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="0" selection-start="1912" selection-end="1912" vertical-scroll-proportion="0.46266967" vertical-offset="288" max-vertical-offset="1394" />
@@ -1163,91 +1211,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Senses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/AbilityModifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1825" selection-end="1991" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Initiative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Movement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Race.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+        <state line="5" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.064199395" vertical-offset="0" max-vertical-offset="1324">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Gender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding>
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Alignment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding>
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Defenses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="17" column="23" selection-start="342" selection-end="342" vertical-scroll-proportion="0.21827795" vertical-offset="0" max-vertical-offset="1324">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/DefenseModifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/CharacterClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="496" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state line="20" column="23" selection-start="496" selection-end="497" vertical-scroll-proportion="0.25679758" vertical-offset="0" max-vertical-offset="1324">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="1156">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,6 +1244,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/mfranchino/doomsday/tests/TestAbilityScores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="44" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.40936556" vertical-offset="427" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/Attributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.14123867" vertical-offset="0" max-vertical-offset="1324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/inventory/InventoryItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="3" selection-start="4209" selection-end="4209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5406">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2507#2508#0" expanded="true" />
+            <element signature="e#2535#2536#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2798#2799#0" expanded="true" />
+            <element signature="e#2824#2825#0" expanded="true" />
+            <element signature="e#2941#2942#0" expanded="true" />
+            <element signature="e#2967#2968#0" expanded="true" />
+            <element signature="e#3086#3087#0" expanded="true" />
+            <element signature="e#3112#3113#0" expanded="true" />
+            <element signature="e#3228#3229#0" expanded="true" />
+            <element signature="e#3254#3255#0" expanded="true" />
+            <element signature="e#3378#3379#0" expanded="true" />
+            <element signature="e#3403#3404#0" expanded="true" />
+            <element signature="e#3470#3471#0" expanded="true" />
+            <element signature="e#3501#3502#0" expanded="true" />
+            <element signature="e#3823#3824#0" expanded="true" />
+            <element signature="e#3854#3855#0" expanded="true" />
+            <element signature="e#4178#4179#0" expanded="true" />
+            <element signature="e#4208#4209#0" expanded="true" />
+            <element signature="e#4308#4309#0" expanded="true" />
+            <element signature="e#4352#4353#0" expanded="true" />
+            <element signature="e#4476#4477#0" expanded="true" />
+            <element signature="e#4501#4502#0" expanded="true" />
+            <element signature="e#6630#6631#0" expanded="true" />
+            <element signature="e#6659#6660#0" expanded="true" />
+            <element signature="e#6757#6758#0" expanded="true" />
+            <element signature="e#6799#6800#0" expanded="true" />
+            <element signature="e#6943#6944#0" expanded="true" />
+            <element signature="e#6971#6972#0" expanded="true" />
+            <element signature="e#7066#7067#0" expanded="true" />
+            <element signature="e#7106#7107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Alignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="10" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/AbilityScores.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="231" column="0" selection-start="6864" selection-end="6864" vertical-scroll-proportion="0.0" vertical-offset="3408" max-vertical-offset="4046">
@@ -1267,16 +1320,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/mfranchino/doomsday/tests/TestAbilityScores.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Defenses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="44" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0" vertical-offset="719" max-vertical-offset="1683">
+        <state line="9" column="10" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/Attributes.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Initiative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.29127726" vertical-offset="0" max-vertical-offset="642">
+        <state line="7" column="10" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/Movement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/AbilityModifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1825" selection-end="1991" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mfranchino/doomsday/framework/entities/character/DefenseModifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="35" selection-start="521" selection-end="521" vertical-scroll-proportion="0.3457627" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>

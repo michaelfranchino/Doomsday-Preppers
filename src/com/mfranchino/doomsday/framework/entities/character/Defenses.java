@@ -5,7 +5,7 @@ package com.mfranchino.doomsday.framework.entities.character;
  */
 public class Defenses {
 
-  private final int[] fortitude = new int[5];
-  private final int[] reflex = new int[5];
-  private final int[] will = new int[5];
+  private int[] fortitude = new int[5];
+  private int[] reflex = new int[5];
+  private int[] will = new int[5];
 }

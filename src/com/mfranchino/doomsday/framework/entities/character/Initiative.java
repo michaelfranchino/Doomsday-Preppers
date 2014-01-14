@@ -5,6 +5,6 @@ package com.mfranchino.doomsday.framework.entities.character;
  */
 public class Initiative {
 
-  private final int[] initiative = new int[3];
+  private int[] initiative = new int[3];
 
 }
