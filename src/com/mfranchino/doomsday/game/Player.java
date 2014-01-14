@@ -1,12 +1,11 @@
 package com.mfranchino.doomsday.game;
 
-import com.mfranchino.doomsday.framework.entities.Attributes;
-import com.mfranchino.doomsday.framework.entities.BaseEntity;
-import com.mfranchino.doomsday.framework.entities.Entity;
+import com.mfranchino.doomsday.framework.entities.*;
+import com.mfranchino.doomsday.framework.entities.character.Character;
 import org.newdawn.slick.*;
 import org.newdawn.slick.geom.Vector2f;
 
-public class Player extends BaseEntity implements Entity{
+public class Player extends Character {
 
   private Attributes attributes;
 	

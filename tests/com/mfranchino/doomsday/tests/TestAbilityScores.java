@@ -1,6 +1,8 @@
 package com.mfranchino.doomsday.tests;
 
-import com.mfranchino.doomsday.framework.entities.*;
+import com.mfranchino.doomsday.framework.entities.character.AbilityBuilder;
+import com.mfranchino.doomsday.framework.entities.character.AbilityModifier;
+import com.mfranchino.doomsday.framework.entities.character.AbilityScores;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -46,7 +48,7 @@ public class TestAbilityScores {
 						.strength(5)
 						.end();
 
-		ab.udpate()
+		ab.update()
 						.with(AbilityModifier.RACIALMODIFIER)
 						.strength(11)
 						.end();
@@ -73,7 +75,7 @@ public class TestAbilityScores {
 							.constitution(15)
 						.end();
 
-		ab.udpate()
+		ab.update()
 				.with(AbilityModifier.MISCPENALTIES)
 					.strength(4)
 					.intelligence(2)

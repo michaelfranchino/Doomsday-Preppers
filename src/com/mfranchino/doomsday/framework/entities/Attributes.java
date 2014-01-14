@@ -3,6 +3,7 @@ package com.mfranchino.doomsday.framework.entities;
 import org.newdawn.slick.Animation;
 import org.newdawn.slick.Image;
 
+// TODO should this attributes class still be used since we have all those other classes?
 public class Attributes {
   private String name;
   private int health;
