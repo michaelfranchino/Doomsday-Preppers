@@ -17,6 +17,7 @@
 package com.mfranchino.doomsday.framework.entities.particles;
 
 import com.mfranchino.doomsday.framework.entities.BaseEntity;
+import com.mfranchino.doomsday.framework.level.Level;
 import com.mfranchino.doomsday.game.Game;
 import com.mfranchino.doomsday.game.objects.Camera;
 import org.newdawn.slick.*;
@@ -84,7 +85,7 @@ public class Particle extends BaseEntity {
 	@Override
 	public void update(GameContainer gc, int delta) throws SlickException {
 		Input input = gc.getInput();
-		Camera camera = Game.getCamera();
+		Camera camera = Level.getCamera();
 		
 		system.setPosition(input.getMouseX() - camera.getX(), input.getMouseY() - camera.getY());
 

@@ -5,19 +5,14 @@ package com.mfranchino.doomsday.framework.entities.character;
  */
 public class CharacterClass {
 
-  private final String name;
-  private final int level;
-  private final int baseSaveBonus;
-  private final int baseAttackBonus;
-  private final int skillMaxRank;
-  private final double crossSkilMaxRank;
+  private String name;
+  private int level;
+  private int baseSaveBonus;
+  private int baseAttackBonus;
+  private int skillMaxRank;
+  private double crossSkillMaxRank;
 
   public CharacterClass() {
-    name = null;
-    level = 0;
-    baseSaveBonus = 0;
-    baseAttackBonus = 0;
-    skillMaxRank = 0;
-    crossSkilMaxRank = 0;
+
   }
 }

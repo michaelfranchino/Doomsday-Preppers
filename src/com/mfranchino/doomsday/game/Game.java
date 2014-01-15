@@ -2,13 +2,15 @@ package com.mfranchino.doomsday.game;
 
 import com.mfranchino.doomsday.framework.level.Level;
 import com.mfranchino.doomsday.game.level.*;
-import com.mfranchino.doomsday.game.objects.Camera;
+import com.mfranchino.doomsday.game.objects.MainMenu;
+import com.mfranchino.doomsday.game.objects.Menu;
 import org.newdawn.slick.*;
 
 public class Game extends BasicGame {
 
 	public static final String gameName = "YouTube Video Series";
 
+  // TODO Remove these as they aren't being used
 	public static final int SPLASHSCREEN = 0;
 	public static final int MAINMENU = 1;
 
@@ -17,18 +19,17 @@ public class Game extends BasicGame {
 	public static final int FPS = 60;
 	public static final double VERSION = 0.05;
 
-	Level level;
-	private static Camera camera;
+  public static GameStateManager gsm;
 
 	double counter;
 
-	public static Camera getCamera() {
-		return camera;
-	}
-	
 	public Game(String gameName) {
 		super(gameName);
 	}
+
+  public static GameStateManager gameStateManager() {
+    return gsm;
+  }
 
 	public static void main(String[] args) {
 		try {
@@ -61,21 +62,29 @@ public class Game extends BasicGame {
 		// g.setLineWidth(1f);
 		// g.setColor(Color.red);
 		// g.drawOval(320f, 240f, (float)(10 + counter), (float)(10 + counter));
-		camera.translate(g, level.getPlayer());  // have camera follow entity (player, mob, etc)
-		level.render(gc, g);
+
+    gsm.render(gc, g);
 	}
 
 	@Override
 	public void init(GameContainer gc) throws SlickException {
 
-		level = new TestLevel(TestLayerEnum.class);
-		level.init(gc);
-		
-		camera = new Camera(level.getMapWidth(), level.getMapHeight());
+    this.gsm = new GameStateManager(gc);
+    MenuState menuState = new MenuState(gsm);
+    Menu mainMenu  = new MainMenu(); //0, 300, 150, 0, 0);
+    menuState.setMenu(mainMenu);
+    gsm.addState(menuState);
+
+    LevelState levelState = new LevelState(gsm);
+    Level level = new TestLevel(TestLayerEnum.class);
+    levelState.setLevel(level);
+    gsm.addState(levelState);
+
+    gsm.setState(gc, 0);
 	}
 
 	@Override
 	public void update(GameContainer gc, int delta) throws SlickException {
-		level.update(gc, delta);
+    gsm.update(gc, delta);
 	}
 }
