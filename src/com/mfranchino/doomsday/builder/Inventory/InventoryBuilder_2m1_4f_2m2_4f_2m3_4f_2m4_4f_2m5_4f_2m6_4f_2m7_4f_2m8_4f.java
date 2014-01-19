@@ -2,7 +2,7 @@
 package com.mfranchino.doomsday.builder.Inventory;
 
 import javax.annotation.Generated;
-import com.mfranchino.doomsday.framework.entities.inventory.InventoryItem;
+import com.mfranchino.engine.framework.entities.inventory.InventoryItem;
 import unquietcode.tools.flapi.runtime.MethodInfo;
 import unquietcode.tools.flapi.runtime.TransitionType;
 

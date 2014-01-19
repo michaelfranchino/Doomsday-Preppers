@@ -1,10 +1,10 @@
 package com.mfranchino.doomsday.game.level;
 
-import com.mfranchino.doomsday.framework.entities.Entity;
-import com.mfranchino.doomsday.framework.entities.EntityList;
-import com.mfranchino.doomsday.framework.entities.particles.Particle;
-import com.mfranchino.doomsday.framework.level.Level;
-import com.mfranchino.doomsday.game.Player;
+import com.mfranchino.engine.framework.entities.Entity;
+import com.mfranchino.engine.framework.entities.EntityList;
+import com.mfranchino.engine.framework.entities.particles.Particle;
+import com.mfranchino.engine.framework.level.Level;
+import com.mfranchino.engine.framework.game.Player;
 import com.mfranchino.doomsday.game.objects.Box;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;

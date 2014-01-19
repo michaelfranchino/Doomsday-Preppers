@@ -6,17 +6,16 @@
             <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/inventory/builder/InventoryItemBuilder.java</file>
         </group>
         <group>
-            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/game/GameLoop.java</file>
-            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/game/GameStateManager.java</file>
-            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/utilities/network/ChatServer.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/utilities/network/ScheduleExecutor.java</file>
             <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/utilities/network/Server.java</file>
-            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/game/Player.java</file>
-            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/game/GameState.java</file>
-            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/utilities/network/ClientGUI.java</file>
-            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/utilities/network/Client.java</file>
-            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/game/Configuration.java</file>
-            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/framework/level/Level.java</file>
-            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/doomsday/game/LevelState.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/engine/framework/game/ServerManager.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/utilities/network/Task.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/engine/framework/game/Menu.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/utilities/network/packets/Packet.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/engine/framework/game/MenuState.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/utilities/network/packets/Packet_Login.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/engine/framework/game/Server.java</file>
+            <file>file:/C:/Users/mfranchino/workspace/Doomsday%20Preppers/src/com/mfranchino/engine/framework/game/Client.java</file>
         </group>
     </open-files>
 </project-private>

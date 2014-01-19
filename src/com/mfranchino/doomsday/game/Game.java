@@ -14,10 +14,13 @@ package com.mfranchino.doomsday.game;
 
 //~--- non-JDK imports --------------------------------------------------------
 
-import com.mfranchino.doomsday.framework.level.Level;
+import com.mfranchino.engine.framework.game.GameStateManager;
+import com.mfranchino.engine.framework.game.MenuState;
+import com.mfranchino.engine.framework.game.LevelState;
+import com.mfranchino.engine.framework.level.Level;
 import com.mfranchino.doomsday.game.level.*;
 import com.mfranchino.doomsday.game.objects.MainMenu;
-import com.mfranchino.doomsday.game.objects.Menu;
+import com.mfranchino.engine.framework.game.Menu;
 
 import org.newdawn.slick.*;
 

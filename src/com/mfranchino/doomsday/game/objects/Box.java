@@ -1,6 +1,6 @@
 package com.mfranchino.doomsday.game.objects;
 
-import com.mfranchino.doomsday.framework.entities.BaseEntity;
+import com.mfranchino.engine.framework.entities.BaseEntity;
 import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;

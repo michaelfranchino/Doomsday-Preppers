@@ -1,8 +1,8 @@
 package com.mfranchino.doomsday.tests;
 
-import com.mfranchino.doomsday.framework.entities.character.AbilityBuilder;
-import com.mfranchino.doomsday.framework.entities.character.AbilityModifier;
-import com.mfranchino.doomsday.framework.entities.character.AbilityScores;
+import com.mfranchino.engine.framework.entities.character.AbilityBuilder;
+import com.mfranchino.engine.framework.entities.character.AbilityModifier;
+import com.mfranchino.engine.framework.entities.character.AbilityScores;
 import org.junit.Assert;
 import org.junit.Test;
 

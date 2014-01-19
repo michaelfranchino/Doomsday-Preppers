@@ -1,5 +1,6 @@
 package com.mfranchino.doomsday.game.objects;
 
+import com.mfranchino.engine.framework.game.Menu;
 import org.newdawn.slick.Color;
 import org.newdawn.slick.*;
 import org.newdawn.slick.Graphics;
